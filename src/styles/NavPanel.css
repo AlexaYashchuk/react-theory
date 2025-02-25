@@ -1,0 +1,35 @@
+.container {
+  display: flex; /* Используем Flexbox для размещения элементов в строку */
+}
+
+.divPanel {
+  margin-top: 1em;
+  margin-bottom: 5em;
+  /* margin: 20px; */
+  float: left;
+  flex-direction: column; /* Вертикальное расположение элементов */
+  justify-content: flex-start; /* Выравнивание по верхнему краю */
+  align-items: flex-start; /* Выравнивание по левому краю */
+  background-color: #f0f2f5; /* Светлый фон для панели */
+  padding: 20px; /* Отступы вокруг панели */
+  width: 200px; /* Ширина панели */
+  height: 10em;
+  /* height: 100vh; Высота на всю высоту экрана */
+  box-shadow: 0 2px 10px red; /* Тень для заголовка */
+}
+
+.divPanel a {
+  margin: 10px 0; /* Вертикальные отступы между кнопками */
+}
+
+.divPanel .ant-btn {
+  margin-bottom: 1em;
+  border-radius: 5px; /* Закругленные углы кнопок */
+  transition: background-color 0.3s, transform 0.3s; /* Плавные переходы */
+  width: 100%; /* Кнопки занимают всю ширину панели */
+}
+
+.divPanel .ant-btn:hover {
+  background-color: #1890ff; /* Изменение цвета фона при наведении */
+  transform: scale(1.05); /* Увеличение кнопки при наведении */
+}

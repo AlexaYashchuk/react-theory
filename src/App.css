@@ -1,0 +1,21 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.content {
+  height: auto;
+  width: auto;
+  margin-top: 1em;
+  margin-left: 16em; /* Отступ слева для основного контента, чтобы он не перекрывался с панелью */
+  padding: 20px; /* Внутренние отступы для основного контента */
+  background-color: #ffffff; /* Белый фон для основного контента */
+  box-shadow: 0 2px 10px rgb(215, 183, 183); /* Тень для заголовка */
+}
+.content img {
+  margin: 10px;
+  width: 90rem;
+  height: 65rem;
+}
