@@ -11,33 +11,55 @@
   height: auto;
   width: auto;
   margin-top: 1em;
-  margin-left: 16em; /* Отступ слева для основного контента, чтобы он не перекрывался с панелью */
-  padding: 20px; /* Внутренние отступы для основного контента */
-  background-color: #ffffff; /* Белый фон для основного контента */
-  box-shadow: 0 2px 10px rgb(171, 9, 9); /* Тень для заголовка */
+  margin-left: 16em;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 15px rgb(150, 150, 150);
 }
-.content-title {
-  text-align: center;
+.content h1 {
+  margin: 0;
+  text-align: left;
+  font-size: 2em;
 }
+.content h2 {
+  margin: 0;
+  text-align: left;
+  font-size: 1.5em;
+}
+
 .content-img {
   max-width: 100%;
   height: auto;
 }
 
 .code-block {
-  background-color: rgb(90, 85, 85);
+  background-color: rgb(212, 210, 210);
+  border-radius: 1em;
+  padding: 1em;
 }
 .codeText {
-  color: #ffffff;
+  color: #000000;
+  font-size: large;
+}
+.text-block {
+  margin: 0.5em;
 }
 .text-block-important {
   background-color: rgb(212, 210, 210);
   border-radius: 1em;
-  display: flex;
   padding: 1em;
 }
 .warning-icon {
   color: rgb(230, 73, 73);
   margin-right: 0.5em;
   font-size: 2em;
+}
+.list {
+  background-color: rgb(212, 210, 210);
+  border-radius: 1em;
+  padding: 1.5em;
+}
+.link-in-text {
+  margin: 0.3em;
+  border-color: rgb(97, 218, 251);
 }

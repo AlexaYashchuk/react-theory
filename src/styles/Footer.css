@@ -1,14 +1,14 @@
 .footer {
-  position: fixed; /* Фиксированное позиционирование */
-  bottom: 0; /* Прикрепляем футер к нижней части страницы */
-  left: 0; /* Выравнивание по левому краю */
-  right: 0; /* Выравнивание по правому краю */
-  background-color: #f0f2f5; /* Цвет фона футера */
-  text-align: center; /* Центрирование текста */
-  /* Вертикальные отступы */
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Тень для глубины */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(236, 234, 234);
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .footer p {
   font-size: small;
+  opacity: 50%;
 }
