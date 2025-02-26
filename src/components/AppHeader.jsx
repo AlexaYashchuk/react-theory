@@ -13,7 +13,7 @@ const AppHeader = () => {
       <Link to="/">
         <HomeOutlined className="home-icon" />
       </Link>
-      <h1>REACT</h1>
+      <h1>Теория по библиотеке React</h1>
       <img src={reactLogo} className="logo react" alt="React logo" />
     </Header>
   );

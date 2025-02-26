@@ -13,13 +13,9 @@
   background-color: #f0f2f5; /* Светлый фон для панели */
   padding: 20px; /* Отступы вокруг панели */
   width: 200px; /* Ширина панели */
-  height: 10em;
+  height: auto;
   /* height: 100vh; Высота на всю высоту экрана */
   box-shadow: 0 2px 10px red; /* Тень для заголовка */
-}
-
-.divPanel a {
-  margin: 10px 0; /* Вертикальные отступы между кнопками */
 }
 
 .divPanel .ant-btn {
@@ -30,6 +26,5 @@
 }
 
 .divPanel .ant-btn:hover {
-  background-color: #1890ff; /* Изменение цвета фона при наведении */
-  transform: scale(1.05); /* Увеличение кнопки при наведении */
+  transform: scale(1.1); /* Увеличение кнопки при наведении */
 }
