@@ -22,14 +22,14 @@ const VirtualDOM = () => {
         странице. Но вместо того, чтобы непосредственно вносить изменения в
         реальный DOM, React использует виртуальный DOM.
       </p>
-      <p className="text-block-important">
+      <div className="text-block-important">
         <WarningOutlined className="warning-icon" />
         <b> VirtualDOM </b> - это промежуточное представление DOM в памяти
         компьютера. React создает виртуальное дерево элементов, которое точно
         соответствует текущему состоянию компонентов. Затем React сравнивает это
         виртуальное дерево с реальным DOM и определяет, какие изменения
         необходимо внести.
-      </p>
+      </div>
       <h2>В чем особенность VirtualDOM?</h2>
       <ul className="list">
         <li>

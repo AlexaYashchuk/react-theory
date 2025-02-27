@@ -36,10 +36,10 @@
   background-color: rgb(212, 210, 210);
   border-radius: 1em;
   padding: 1em;
+  margin-bottom: 0.5em;
 }
 .codeText {
   color: #000000;
-  font-size: large;
 }
 .text-block {
   margin: 0.5em;
@@ -48,6 +48,7 @@
   background-color: rgb(212, 210, 210);
   border-radius: 1em;
   padding: 1em;
+  margin-bottom: 0.5em;
 }
 .warning-icon {
   color: rgb(230, 73, 73);

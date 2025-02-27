@@ -7,12 +7,12 @@ const Components = () => {
   return (
     <div className="content">
       <h1>Components</h1>
-      <p className="text-block-important">
+      <div className="text-block-important">
         <WarningOutlined className="warning-icon" />
         <b>Компоненты</b> - это небольшие, переиспользуемые элементы
         пользовательского интерфейса, которые объединены вместе, чтобы создать
         более крупные приложения.
-      </p>
+      </div>
 
       <p className="text-block">
         Во многом компоненты ведут себя как
