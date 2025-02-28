@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button, Input } from "antd";
-import "../styles/UseStateExample.css";
+import "../styles/Example.css";
 
 const UseStateExample = () => {
   //пример со счетчиком
@@ -30,7 +30,7 @@ const UseStateExample = () => {
 
   return (
     <>
-      <div className="useStateExample">
+      <div className="example">
         <Button className="items" onClick={increment}>
           +1
         </Button>
@@ -39,13 +39,13 @@ const UseStateExample = () => {
           -1
         </Button>
       </div>
-      <div className="useStateExample">
+      <div className="example">
         <Button className="items" onClick={show}>
           Показать скрыть
         </Button>
         {showText && <p>Это текст</p>}
       </div>
-      <div className="useStateExample">
+      <div className="example">
         <Input
           type="text"
           placeholder="Введите текст"

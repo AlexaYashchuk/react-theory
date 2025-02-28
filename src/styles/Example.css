@@ -1,0 +1,11 @@
+.example {
+  display: flex;
+  align-items: center;
+}
+.example .items {
+  margin: 1em;
+}
+.example Input {
+  width: 10em;
+  margin: 1em;
+}
