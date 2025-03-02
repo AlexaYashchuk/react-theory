@@ -1,18 +1,18 @@
 import { Route, Routes } from "react-router-dom";
-import { Home } from "./pages/Home";
-import { NotFound } from "./pages/NotFound";
-import { Components } from "./pages/Components";
-import { Props } from "./pages/Props";
-import { VirtualDOM } from "./pages/VirtualDom";
-import { State } from "./pages/State";
-import { LifeCycle } from "./pages/LifeCycle";
-import { Events } from "./pages/Events";
-import { RefsFragmentKey } from "./pages/RefsFragmentKey";
-import { Context } from "./pages/Context";
-import { Forms } from "./pages/Forms";
-import { Storages } from "./pages/Storages";
-import { HOC } from "./pages/HOC";
-import { Router } from "./pages/Router";
+import { Home } from "./pages/Home.jsx";
+import { NotFound } from "./pages/NotFound.jsx";
+import { Components } from "./pages/Components.jsx";
+import { Props } from "./pages/Props.jsx";
+import { VirtualDOM } from "./pages/VirtualDom.jsx";
+import { State } from "./pages/State.jsx";
+import { LifeCycle } from "./pages/LifeCycle.jsx";
+import { Events } from "./pages/Events.jsx";
+import { RefsFragmentKey } from "./pages/RefsFragmentKey.jsx";
+import { Context } from "./pages/Context.jsx";
+import { Forms } from "./pages/Forms.jsx";
+import { Storages } from "./pages/Storages.jsx";
+import { HOC } from "./pages/HOC.jsx";
+import { Router } from "./pages/Router.jsx";
 
 const AppRoutes = () => {
   return (
