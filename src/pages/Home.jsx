@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import roadMap from "../assets/Roadmap.jpg";
+import roadMap from "../assets/roadmap.jpg";
 
 const Home = () => {
   return (
