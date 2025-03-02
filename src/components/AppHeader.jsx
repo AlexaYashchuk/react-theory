@@ -1,7 +1,7 @@
 import React from "react";
 import reactLogo from "../assets/react.svg";
 import { HomeOutlined } from "@ant-design/icons";
-import { Layout, Button } from "antd";
+import { Layout } from "antd";
 import { Link } from "react-router-dom";
 import "../styles/Header.css";
 import { useContext } from "react";
@@ -14,7 +14,7 @@ const AppHeader = () => {
 
   return (
     <Header className="header">
-      <Link to="/">
+      <Link to="/react-theory">
         <HomeOutlined className="home-icon" />
       </Link>
       <h1>Теория по библиотеке React</h1>
