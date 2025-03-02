@@ -17,7 +17,7 @@ import { Router } from "./pages/Router";
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/react-theory" element={<Home />} />
       <Route path="*" element={<NotFound />} />
       <Route path="/virtualDom" element={<VirtualDOM />} />
       <Route path="/components" element={<Components />} />
