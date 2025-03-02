@@ -3,7 +3,7 @@ import { Home } from "./pages/Home.jsx";
 import { NotFound } from "./pages/NotFound.jsx";
 import { Components } from "./pages/Components.jsx";
 import { Props } from "./pages/Props.jsx";
-import { VirtualDOM } from "./pages/VirtualDom.jsx";
+//import { VirtualDOM } from "./pages/VirtualDom.jsx";
 import { State } from "./pages/State.jsx";
 import { LifeCycle } from "./pages/LifeCycle.jsx";
 import { Events } from "./pages/Events.jsx";
@@ -19,7 +19,7 @@ const AppRoutes = () => {
     <Routes>
       <Route path="/react-theory" element={<Home />} />
       <Route path="*" element={<NotFound />} />
-      <Route path="/virtualDom" element={<VirtualDOM />} />
+      {/* <Route path="/virtualDom" element={<VirtualDOM />} /> */}
       <Route path="/components" element={<Components />} />
       <Route path="/props" element={<Props />} />
       <Route path="/state" element={<State />} />
