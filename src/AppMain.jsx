@@ -4,11 +4,9 @@ import { App } from "./App";
 
 const AppMain = () => {
   return (
-    <>
-      <ProviderTheme>
-        <App />
-      </ProviderTheme>
-    </>
+    <ProviderTheme>
+      <App />
+    </ProviderTheme>
   );
 };
 

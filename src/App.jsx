@@ -10,14 +10,12 @@ import { ContextTheme } from "./context/ContextTheme";
 function App() {
   const { dark, toggleTheme } = useContext(ContextTheme);
   return (
-    <>
-      <div className={`contexTheme ${dark ? "dark" : "light"}`}>
-        <AppHeader />
-        <NavPanel />
-        <Footer />
-        <AppRoutes />
-      </div>
-    </>
+    <div className={`contexTheme ${dark ? "dark" : "light"}`}>
+      <AppHeader />
+      <NavPanel />
+      <Footer />
+      <AppRoutes />
+    </div>
   );
 }
 

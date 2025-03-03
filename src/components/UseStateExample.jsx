@@ -3,7 +3,6 @@ import { Button, Input } from "antd";
 import "../styles/Example.css";
 
 const UseStateExample = () => {
-  //пример со счетчиком
   const [count, setCount] = useState(0);
 
   const increment = () => {
@@ -15,13 +14,13 @@ const UseStateExample = () => {
       setCount(count - 1);
     }
   };
-  //пример с показать/скрыть
+
   const [showText, setShowText] = useState(true);
 
   const show = () => {
     setShowText(!showText);
   };
-  //пример с input
+
   const [text, setText] = useState("");
 
   const changeText = (event) => {
