@@ -1,6 +1,6 @@
 # React theory (React + JavaScript)
 
-База знаний по библиотеке React, разработанная в учебных целях с использованием **React** **JavaScript**, **Ant Design** и **react-router-dom**.
+База знаний по библиотеке React, разработанная в учебных целях с использованием **React**, **JavaScript**, **Ant Design** и **react-router-dom**.
 
 ##
 
